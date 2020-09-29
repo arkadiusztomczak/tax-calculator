@@ -1,6 +1,8 @@
 # TaxCalculator
 Zadanie rekrutacyjne WPserved.
 
+![Zrzut ekranu aplikacji](http:/atfilm.pl/pliki/task1.png)
+
 ## Instalcja
 1. Katalog znajdujące się w katalogu `taxcalc` należy umieścić na serwerze z zainstalowanym Wordpressem w katalogu `\wp-content\plugins\`.
 2. W panelu administracyjnym należy przejść do zakładki `Wtyczki` i włączyć wtyczkę `Tax Calculator`
