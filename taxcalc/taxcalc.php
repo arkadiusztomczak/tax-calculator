@@ -83,7 +83,6 @@ function add_to_log()
              (select (select ip from wp_taxcalc where ip = '$ip') is null)
             ");
             if($wpdb->query($sql)) $result=1;
-            else echo $sql;
         }
     }
     echo $result;
@@ -214,7 +213,7 @@ class logList extends WP_List_Table {
             case 'vat':   return $item['vat']." (".$item['vcalc']."%)";
             case 'kp':   return $item['kp'];
             case 'cp':   return $item['cp'];
-            default:      return print_r( $item, true );
+            default:      return '';
         }
     }
 }
