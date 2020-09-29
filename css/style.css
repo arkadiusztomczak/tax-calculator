@@ -1,0 +1,54 @@
+.taxcalcWidget{
+    border: 1px solid #9E9E9E;
+}
+.taxcalcWidget form{
+    display: table;
+    width: 100%;
+}
+.taxcalcWidget label, .taxcalcWidget input, .taxcalcWidget select {
+    display: table-cell;
+    padding: 15px;
+
+}
+.taxcalcWidget input, .taxcalcWidget select{
+    color:black;
+}
+.taxcalcWidget .tc_inputBox {
+    display: table-row;
+}
+.taxcalcWidget, .taxcalcWidget input, .taxcalcWidget select, .taxcalcWidget button{
+    width: 100%;
+}
+.tc_inputBox:nth-child(odd){
+    background:#f5f5f5;
+}
+.tc_inputBox:nth-child(even){
+    background:#eeeeee;
+}
+.taxcalcWidget button{
+    width: 100%;
+    background: #9E9E9E;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.0333em;
+    line-height: 1.25;
+    margin: 0;
+    opacity: 1;
+    padding: 1.1em 1.44em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.taxcalcWidget #tc_result{
+    display: none;
+    background: #FAFAFA;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    color: #424242;
+}
